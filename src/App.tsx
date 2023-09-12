@@ -1,10 +1,5 @@
 import { useQuery } from "react-query";
-
-const POST = [
-  { id: 1, title: "Title1" },
-  { id: 2, title: "Title2" },
-];
-
+import { POST } from "./constants/data";
 function App() {
   const postQuery = useQuery({
     queryKey: ["POST"],
